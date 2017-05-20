@@ -1,0 +1,23 @@
+Dependencies for Project 'Connect4', Target 'SpaceInvaders': (DO NOT MODIFY !)
+F (.\startup.s)(0x5197C8FA)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\Nokia5110.c)(0x59136A75)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\nokia5110.o --omf_browse .\nokia5110.crf --depend .\nokia5110.d)
+I (Nokia5110.h)(0x5343F13E)
+F (.\Connect4.c)(0x591FBF9F)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\connect4.o --omf_browse .\connect4.crf --depend .\connect4.d)
+I (..//tm4c123gh6pm.h)(0x51D44682)
+I (Nokia5110.h)(0x5343F13E)
+I (TExaS.h)(0x569B4718)
+I (PORTF.h)(0x591F2F93)
+I (UART.h)(0x591F2AF1)
+I (Bitmaps.h)(0x591C9D22)
+I (CheckWin.h)(0x5910581A)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+F (.\TExaS.c)(0x569B4738)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\texas.o --omf_browse .\texas.crf --depend .\texas.d)
+I (TExaS.h)(0x569B4718)
+F (.\PORTF.c)(0x591E0467)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\portf.o --omf_browse .\portf.crf --depend .\portf.d)
+I (PORTF.h)(0x591F2F93)
+F (.\CheckWin.c)(0x591DF92B)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\checkwin.o --omf_browse .\checkwin.crf --depend .\checkwin.d)
+I (CheckWin.h)(0x5910581A)
+F (.\UART.c)(0x591F81B6)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (..\tm4c123gh6pm.h)(0x51D44682)
+I (UART.h)(0x591F2AF1)
+F (.\UART.h)(0x591F2AF1)()
