@@ -11,7 +11,7 @@
 // Ground        (Gnd, pin 8) ground
 
 
-#include "..//tm4c123gh6pm.h"
+#include "tm4c123gh6pm.h"
 #include "Nokia5110.h"
 #include "TExaS.h"
 #include "PORTF.h"
